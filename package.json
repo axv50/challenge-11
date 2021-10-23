@@ -1,14 +1,28 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "title: Note Taker author: Alexis Vega Worked with Randolph Davis",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-  "express": "^4.16.4"
-  }
+    "express": "^4.17.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axv50/challenge-11.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/axv50/challenge-11/issues"
+  },
+  "homepage": "https://github.com/axv50/challenge-11#readme"
 }
